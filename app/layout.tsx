@@ -3,6 +3,7 @@ import "./globals.css";
 import { Figtree } from "next/font/google";
 import SupabaseProvider from "@/providers/SupabaseProvider";
 import UserProvider from "@/providers/UserProvider";
+import ModalProivder from "@/providers/ModalProvider";
 
 const font = Figtree({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={font.className}>
         <SupabaseProvider>
           <UserProvider>
+            <ModalProivder />
             <Sidebar>{children}</Sidebar>
           </UserProvider>
         </SupabaseProvider>

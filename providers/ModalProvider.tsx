@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 
+import Modal from "@/components/Modal";
 const ModalProivder = () => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -13,7 +14,13 @@ const ModalProivder = () => {
     return null;
   }
 
-  return <>Modals</>;
+  return (
+    <>
+      <Modal title="Test Modal" description="Test desc" isOpen onChange={() => {}}>
+        Test children
+      </Modal>
+    </>
+  );
 };
 
 export default ModalProivder;
