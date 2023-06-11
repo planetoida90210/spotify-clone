@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import Modal from "@/components/Modal";
+import AuthModal from "@/components/AuthModal";
 const ModalProivder = () => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -16,9 +16,7 @@ const ModalProivder = () => {
 
   return (
     <>
-      <Modal title="Test Modal" description="Test desc" isOpen onChange={() => {}}>
-        Test children
-      </Modal>
+      <AuthModal />
     </>
   );
 };
