@@ -3,11 +3,12 @@
 import uniqid from "uniqid";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { toast } from "react-hot-toast";
+import { useSupabaseClient } from "@supabase/auth-helpers-react";
 
 import useUploadModal from "@/hooks/useUploadModal";
 import { useUser } from "@/hooks/useUser";
-import { useSupabaseClient } from "@supabase/auth-helpers-react";
 
 import Modal from "./Modal";
 import Input from "./Input";
@@ -18,6 +19,7 @@ const UploadModal = () => {
   const uploadModal = useUploadModal();
   const { user } = useUser();
   const supabaseClient = useSupabaseClient();
+  const router = useRouter();
 
   const { register, handleSubmit, reset } = useForm<FieldValues>({
     defaultValues: {
@@ -82,6 +84,12 @@ const UploadModal = () => {
         setIsLoading(false);
         return toast.error(supabaseError.message);
       }
+
+      router.refresh();
+      setIsLoading(false);
+      toast.success("Song created!");
+      reset();
+      uploadModal.onClose();
     } catch (error) {
       toast.error("Something went wrong.");
     } finally {
