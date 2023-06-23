@@ -30,12 +30,15 @@ The Full Stack Spotify Clone includes the following key features:
 - Cancelling Stripe subscriptions: Users have the ability to cancel their premium subscriptions through the application.
 
 ## Live Demo
-Spotify Clone allows subscribed (36pln/mo) users to play music from player and upload new songs. However, you can subscribe to the Stipe payment gateway (test mode) using the following key:
+Spotify Clone allows subscribed (36pln/mo) users to play music from player and upload new songs. 
+However, you can subscribe to the Stipe payment gateway (test mode) using the following key:
 
 #Enabling Stripe Test Mode
 To use Stripe payment with test mode, you can use the following test card details:
 
--Card number: 4242424242424242
--Expiration date: Any future date
--CVC: Any 3-digit number
--ZIP: Any 5-digit number
+- Card number: 4242424242424242 
+- Expiration date: Any future date 
+- CVC: Any 3-digit number 
+- ZIP: Any 5-digit number
+
+## Screenshots
