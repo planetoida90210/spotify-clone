@@ -42,3 +42,13 @@ To use Stripe payment with test mode, you can use the following test card detail
 - ZIP: Any 5-digit number
 
 ## Screenshots
+
+![FireShot Capture 001 - Multi Device Website Mockup Generator - techsini com](https://github.com/planetoida90210/spotify-clone/assets/47723901/dcf2df8e-57fc-435b-af01-65c8f66ceeca)
+
+![FireShot Capture 002 - Multi Device Website Mockup Generator - techsini com](https://github.com/planetoida90210/spotify-clone/assets/47723901/75616e98-97a3-4e4e-b102-34a1b37e48a8)
+
+![Zrzut ekranu 2023-06-23 o 20 55 31](https://github.com/planetoida90210/spotify-clone/assets/47723901/38b53c9b-5371-42b9-8ce1-7cdd257a098c)
+
+![Zrzut ekranu 2023-06-23 o 20 56 07](https://github.com/planetoida90210/spotify-clone/assets/47723901/391d7c3b-fb71-4819-bc60-a1142e3787e3)
+
+
