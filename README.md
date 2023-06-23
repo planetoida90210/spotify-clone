@@ -1,5 +1,7 @@
 ## 🎶 Spotify-Clone using NextJS, Typescript, TailwindCSS, PostgreSQL, Supabase, Stripe by [@planetoida90210](http://github.com/planetoida90210)! 🎶 
 
+## Link 
+https://spotify-clone-planetoida.vercel.app/
 
 ## Introduction
 The Full Stack Spotify Clone is a music streaming application that replicates the popular features and functionalities of Spotify. 
